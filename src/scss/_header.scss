@@ -1,10 +1,14 @@
 @use './variables';
 
 .header {
-  min-height: 72px;
+  height: 72px;
   border-bottom: 1px solid variables.$color-divider;
   display: flex;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
   &__inner {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
