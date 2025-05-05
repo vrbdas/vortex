@@ -6,10 +6,10 @@
   border-top: 1px solid variables.$color-divider;
   &__bottom {
     background-color: #f2f2f2;
-    height: 90px;
     display: flex;
     align-items: center;
     font-size: 14px;
+    padding: 30px 0;
   }
   &__bottom-inner {
     display: flex;

@@ -1,7 +1,7 @@
 @use './variables';
 
 .header {
-  height: 72px;
+  min-height: 72px;
   border-bottom: 1px solid variables.$color-divider;
   display: flex;
   align-items: center;
